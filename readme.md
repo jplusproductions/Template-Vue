@@ -2,9 +2,9 @@
 A Vue.js Starter Template
 
 ## Requirement:
-* npm == https://www.npmjs.com/
-* node == https://nodejs.org/en/
-* vue.js == https://cli.vuejs.org/
+* [npm](https://www.npmjs.com/) 
+* [node](https://nodejs.org/en/)
+* [vue.js](https://cli.vuejs.org/)
 
 ## Client Envs
 * Rename `.envs` to `.env`
