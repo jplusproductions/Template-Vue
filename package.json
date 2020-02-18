@@ -1,0 +1,57 @@
+{
+  "name": "template-vue",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "author": "https://github.com/jplusproductions",
+  "description": "A Full Loaded and Structured Vue.js Project",
+  "repository": "https://github.com/jplusproductions/template-vue",
+  "main": "index.html",
+  "private": true,
+  "scripts": {
+    "start": "cross-env SERVER=local vue-cli-service serve --port=8000",
+    "serve": "cross-env SERVER=local vue-cli-service serve --port=8000",
+    "serve:dev": "cross-env SERVER=dev vue-cli-service serve --mode=dev --port=8000",
+    "serve:prod": "cross-env SERVER=prod vue-cli-service serve --mode=prod --port=8000",
+    "serve:stage": "cross-env SERVER=stage vue-cli-service serve --mode=stage --port=8000",
+    "build:dev": "cross-env SERVER=dev vue-cli-service build --mode=dev",
+    "build:prod": "cross-env SERVER=prod vue-cli-service build --mode=prod",
+    "build:stage": "cross-env SERVER=stage vue-cli-service build --mode=stage",
+    "lint:fix": "eslint \"**/*.js\" --fix",
+    "lint": "eslint \"**/*.js\""
+  },
+  "dependencies": {
+    "@mdi/font": "^3.9.96",
+    "axios": "^0.19.0",
+    "cross-env": "^6.0.3",
+    "material-design-icons-iconfont": "^5.0.1",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-jwt-decode": "^0.1.0",
+    "vue-router": "^3.0.7",
+    "vuetify": "^2.0.1",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "copy-webpack-plugin": "^5.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.4"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

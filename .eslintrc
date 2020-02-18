@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": false
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended",
+    "@vue/airbnb"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "max-len": ["off"],
+    "func-names": ["off"],
+    "prefer-const": ["off"],
+    "arrow-parens": ["off"],
+    "dot-notation": ["off"],
+    "global-require": ["off"],
+    "linebreak-style": ["off"],
+    "object-shorthand": ["off"],
+    "no-param-reassign": ["off"],
+    "prefer-arrow-callback": ["off"],
+    "import/prefer-default-export": ["off"],
+    "no-useless-escape": ["off"],
+    "no-unused-vars": ["off"],
+    "no-eval": ["off"],
+    "no-new": ["off"]
+  }
+}
